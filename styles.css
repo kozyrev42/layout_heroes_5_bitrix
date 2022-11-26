@@ -1,0 +1,92 @@
+body {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 16px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+
+
+.header {
+   height: 200px;
+   background-image: url(images/image-head.jpg);
+   background-size: cover;
+
+   position:relative;
+}
+
+.header-front {
+   height: 75%;
+   width: 100%;
+   background: #fff0c9;
+   background: linear-gradient(0deg, rgba(255,240,201,1) 0%, rgba(255,240,201,0) 100%);
+
+   position: absolute;
+   bottom: 0;
+
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+
+.header-content {
+   display: flex;
+   justify-content: flex-end;
+   height: 50px;
+   width: 1140px;
+   /* background: #ffffff; */
+}
+
+.header-nav {
+   height: 100%;
+   /* background: #b9b9b9; */
+   
+}
+
+.header-nav ul {
+   padding: 0px; /* Значение полей */
+}
+
+.header-nav ul li{
+   display: inline; /* Отображать как строчный элемент */
+   padding-left: 40px; /* Поля вокруг текста */
+   
+}
+
+.header-nav a {
+   color: black;
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+}
+
+
+.main {
+   
+   background-color: #fff0c9;
+   /* чтобы футер был прижат к низу */
+   min-height: calc(100vh - 80px - 80px);
+}
+
+.footer {
+   /* height: 80px; */
+   /* background-color: #ede0b9; */
+
+   height: 160px;
+   background-image: url(images/image-footer.jpg);
+   background-size: cover;
+}
